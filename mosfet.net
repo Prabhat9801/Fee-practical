@@ -1,0 +1,18 @@
+* C:\Users\karan\Desktop\Practical of FEE\mosfet.asc
+C1 N003 INPUT 10µ
+C2 OUTPUT N002 10µ
+V2 N001 0 20
+V1 INPUT 0 SINE(0 20m 1k)
+M1 N002 N003 N006 N004 Si7336ADP
+R1 N005 0 10K
+R2 N001 N005 50K
+R3 N001 N002 10K
+R4 N006 0 1.5K
+R5 OUTPUT 0 1K
+C3 N006 0 10µ
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\karan\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 5m
+.backanno
+.end

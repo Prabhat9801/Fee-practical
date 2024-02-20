@@ -1,0 +1,3 @@
+Circuit: * C:\Users\karan\Desktop\Practical of FEE\mosfet.asc
+
+Fatal Error: MOSFET m1: the Vertical DMOS FET requires the source and bulk to be the same node.
